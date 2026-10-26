@@ -1,0 +1,85 @@
+* {
+  font-family: "Fira Code";
+}
+
+#waybar {
+  background: rgba(10, 13, 16, 0.78);
+  color: #d5dadd;
+}
+
+#clock {
+  color: #e5e9eb;
+}
+
+#tray {
+  padding-left: 4px;
+}
+
+#workspaces button:hover {
+  background-color: transparent;
+}
+
+#workspaces button {
+  color: #737373;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 0px;
+}
+
+#workspaces button:hover {
+  background-color: #252c31;
+}
+
+#workspaces button.active {
+  color: #b7c0c3;
+}
+
+#window {
+  color: #e5e9eb;
+}
+
+#network {
+  color: #a9b4b9;
+  margin-right: 8px;
+}
+
+#battery {
+  color: #b7c0c3;
+  margin-right: 8px;
+}
+
+#battery.warning {
+  color: #e0af68;
+}
+
+#battery.critical {
+  color: #f7768e;
+}
+
+#pulseaudio {
+  color: #a3afb5;
+  margin-right: 4px;
+}
+
+#cpu {
+  color: #96a3aa;
+  margin-right: 4px;
+}
+
+#temperature {
+  color: #c1c9cd;
+  margin-right: 4px;
+}
+
+#memory {
+  color: #8e9ca4;
+  margin-right: 4px;
+}
+
+#custom-powermenu {
+  color: #c5cdd1;
+}
+
+#custom-hotspot { margin-right: 8px; }
+#custom-hotspot.active { color: #a6e3a1; }
+#custom-hotspot.inactive { color: #737373; }
